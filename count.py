@@ -1,4 +1,4 @@
-n=65778
+n=int(input("Enter a number:"))
 num=n
 count=0
 while n>0:
