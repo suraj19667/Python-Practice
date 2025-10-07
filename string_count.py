@@ -1,13 +1,11 @@
-# Program to count different aspects of a string
 
 def count_string_properties(text):
-    # Count total characters (including spaces)
     total_chars = len(text)
     
     # Count characters without spaces
     chars_no_space = len(text.replace(" ", ""))
     
-    # Count words
+
     words = len(text.split())
     
     # Count vowels
