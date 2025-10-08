@@ -2,7 +2,6 @@
 def count_string_properties(text):
     total_chars = len(text)
     
-    # Count characters without spaces
     chars_no_space = len(text.replace(" ", ""))
     
 
