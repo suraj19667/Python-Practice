@@ -1,4 +1,3 @@
-
 def count_string_properties(text):
     total_chars = len(text)
     
