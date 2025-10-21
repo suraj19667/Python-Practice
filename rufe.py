@@ -7,4 +7,4 @@ while n>0:
 if ans==n:
     print("This is a armstrong number")
 else:
-    print("This is not a armstrong number")
+    print("This is not  armstrong number")
