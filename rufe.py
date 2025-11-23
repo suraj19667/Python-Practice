@@ -5,6 +5,6 @@ while n>0:
     digit=n%10
     ans=digit+n**nol
 if ans==n:
-    print("This is a armstrong number")
+    print("This is armstrong number")
 else:
     print("Not a armstrong number")
