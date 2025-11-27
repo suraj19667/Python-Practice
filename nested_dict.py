@@ -1,0 +1,9 @@
+student={
+    "name":"suraj",
+    "subject":{
+        "phy":45,
+        "chem":44,
+        "math":34
+    }
+}
+print(list(student.keys()))
