@@ -2,7 +2,7 @@
 marks={}
 
 phy=int(input("Enter the physics :"))
-marks.update({"marks":phy})
+marks.update({"Physics":phy})
 
 math=int(input("Enter the math:"))
 marks.update({"maths":math})
