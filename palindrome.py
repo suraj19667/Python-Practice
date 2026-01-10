@@ -1,11 +1,11 @@
-n=567
+n=323
 num=n
-result=0
+rev=0
 while num>0:
-    digit=num%10
-    result=result*10+digit
+    last_digit=num%10
+    rev=rev*10+last_digit
     num=num//10
-if n==result:
-    print("palindrome")
+if n==rev:
+    print("This numbe is a pallindrom")
 else:
-    print("not palindrome")
+    print("This number is not a pallindrom")
